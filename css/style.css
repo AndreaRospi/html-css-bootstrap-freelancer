@@ -26,22 +26,24 @@
 
 .ms_star::before{
     content: "";
-    width: 15%;
-    height: 2px;
+    width: 10%;
+    height: 3px;
     background-color: white;
     position: absolute;
     top: 50%;
-    left: 30%;
+    right: calc(50% + 15px);
+    border-radius: 2em;
 }
 
 .ms_star::after{
     content: "";
-    width: 15%;
-    height: 2px;
+    width: 10%;
+    height: 3px;
     background-color: white;
     position: absolute;
     top: 50%;
-    right: 30%;
+    left: calc(50% + 15px);
+    border-radius: 2em;
 }
 
 .ms_footer-top {
