@@ -106,9 +106,14 @@
     cursor: pointer;
 }
 
+.ms_icon:hover{
+    color:#1abc9c;
+    border: 1px solid #1abc9c;
+}
+
 .ms_start{
     text-decoration: none;
-    color:#1abc9c ;
+    color:#1abc9c;
 }
 
 .ms_start:hover{
