@@ -10,6 +10,18 @@
     background-color: #1abc9c;
 }
 
+#jumbotron img{
+    width: 50%;
+}
+
+.ms_star::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: white;
+    
+}
+
 .ms_footer-top {
     background-color: #3a546d;
 }
