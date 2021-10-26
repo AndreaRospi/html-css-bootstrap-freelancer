@@ -11,7 +11,8 @@
 }
 
 #jumbotron img{
-    width: 30%;
+    width: 45%;
+    max-width: 300px;
 }
 
 .ms_star{
