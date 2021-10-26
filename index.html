@@ -142,15 +142,38 @@
         <section id="contact" class="my-4">
 
             <div class="container">
-                <div class="row text-center">
+                <div class="row text-center text-uppercase">
                     <div class="col-12">
-                        <h2>Contatti</h2>
+                        <h2>contact me</h2>
+                        <div class="ms_star_black my-4">
+                            <i class="fas fa-star"></i>
+                        </div>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="offset-1 col-10">
-                        <div class="box"></div>
+                    <div class="offset-2 col-8 offset-md-1 col-md-10">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control border-top-0 border-start-0 border-end-0 rounded-0" id="floatingInput" placeholder="Name">
+                            <label for="floatingInput">Name</label>
+                          </div>
+                          <div class="form-floating mb-3">
+                            <input type="email" class="form-control border-top-0 border-start-0 border-end-0 rounded-0" id="floatingInput" placeholder="Email Address">
+                            <label for="floatingInput">Email Address</label>
+                          </div>
+                          <div class="form-floating mb-3">
+                            <input type="text" class="form-control border-top-0 border-start-0 border-end-0 rounded-0" id="floatingInput" placeholder="Phone Number">
+                            <label for="floatingInput">Phone Number</label>
+                          </div>
+                          <div class="form-floating">
+                            <textarea class="form-control border-top-0 border-start-0 border-end-0 rounded-0" placeholder="Message" id="floatingTextarea" style="height: 200px;"></textarea>
+                            <label for="floatingTextarea">Message</label>
+                          </div>
+
+                          <button type="button" class="btn text-white ms_green border-0 mt-3">
+                            Send
+                        </button>
+                          
                     </div>
                 </div>
             </div>
